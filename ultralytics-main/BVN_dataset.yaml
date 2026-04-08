@@ -1,0 +1,12 @@
+path: E:/诶啊哈哈哈哈哈哈/大三下大数据分析与技术/第五次yolo/火影忍者目标识别/ultralytics-main/datasets/BVN_dataset
+
+# 注意：这里只写到 images 的父目录，YOLO 会自动拼接 /images/train 和 /images/val
+train: images/train
+val: images/val
+
+# 类别数量（请根据你实际标注的类别数填写，例如 5 类）
+nc: 2
+
+names:
+ 0: Obiten
+ 1: Manbaout
